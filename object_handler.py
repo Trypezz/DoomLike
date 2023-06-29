@@ -8,9 +8,9 @@ class ObjectHandler:
         self.game = game
         self.sprite_list = []
         self.npc_list = []
-        self.npc_sprite_path = 'C:/Users/madep/Documents/[1] Visual Studio Code/Python/RayCasting_Game/resources/sprites/npc/'
-        self.static_sprite_path = 'C:/Users/madep/Documents/[1] Visual Studio Code/Python/RayCasting_Game/resources/sprites/static_sprites/'
-        self.anim_sprite_path = 'C:/Users/madep/Documents/[1] Visual Studio Code/Python/RayCasting_Game/resources/sprites/animated_sprites/'
+        self.npc_sprite_path = 'resources/sprites/npc/'
+        self.static_sprite_path = 'resources/sprites/static_sprites/'
+        self.anim_sprite_path = 'resources/sprites/animated_sprites/'
         add_sprite = self.add_sprite
         add_npc = self.add_npc
         self.npc_positions = {}
